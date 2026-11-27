@@ -187,7 +187,7 @@ class GovernanceTests(unittest.TestCase):
         script = self.gov / "scripts" / name
 
         return subprocess.run(
-            ["bash", str(script), *arguments],
+            [str(script), *arguments],
             cwd=self.workspace,
             env=self.env,
             capture_output=True,
