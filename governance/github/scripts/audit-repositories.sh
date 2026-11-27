@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # Centralized governance compliance audit.

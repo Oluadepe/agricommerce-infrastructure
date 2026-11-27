@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # Validate a repository's protect-main ruleset against

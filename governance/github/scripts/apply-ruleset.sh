@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # GitHub repository governance reconciliation.
