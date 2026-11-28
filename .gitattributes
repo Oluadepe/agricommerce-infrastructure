@@ -1,0 +1,55 @@
+
+# AgriCommerce infrastructure repository attributes.
+#
+# Maintain consistent text file normalization across
+# Linux, Windows and CI/CD execution environments.
+
+# Automatically detect and normalize text files.
+* text=auto
+
+# Repository configuration files.
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.editorconfig text eol=lf
+
+# Automation and programming languages.
+*.sh text eol=lf
+*.bash text eol=lf
+*.py text eol=lf
+
+# Infrastructure and configuration files.
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.tf text eol=lf
+*.tfvars text eol=lf
+*.hcl text eol=lf
+*.j2 text eol=lf
+*.ini text eol=lf
+*.toml text eol=lf
+*.cfg text eol=lf
+
+# Container and build configuration.
+Dockerfile text eol=lf
+Dockerfile.* text eol=lf
+Makefile text eol=lf
+
+# Documentation.
+*.md text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+
+# Windows-native scripts.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets: disable text normalization.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.gz binary
